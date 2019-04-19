@@ -1,12 +1,12 @@
 import firebase from 'firebase'
 
 const config = {
-  apiKey: 'AIzaSyDDOwPtv46O8gP0f-RBsvT9nDp3yrRXxtQ',
-  authDomain: 'ad-snadbox.firebaseapp.com',
-  databaseURL: 'https://ad-snadbox.firebaseio.com',
-  projectId: 'ad-snadbox',
-  storageBucket: 'ad-snadbox.appspot.com',
-  messagingSenderId: '328854615659'
+    apiKey: "AIzaSyCnGryP6hQfoxUp61ey-FOGNHpDSbEUQps",
+    authDomain: "jfddl7-api-e1e9f.firebaseapp.com",
+    databaseURL: "https://jfddl7-api-e1e9f.firebaseio.com",
+    projectId: "jfddl7-api-e1e9f",
+    storageBucket: "jfddl7-api-e1e9f.appspot.com",
+    messagingSenderId: "638817931408"
 }
 
 firebase.initializeApp(config)
