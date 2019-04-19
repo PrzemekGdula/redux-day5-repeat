@@ -2,7 +2,7 @@ const SET = 'messages/SET'
 const ADD = 'messages/ADD'
 const NEW_TEXT_CHANGED = 'messages/NEW_TEXT_CHANGED'
 
-export const NewTextChangedActionCreator = newMessageText => ({
+export const newTextChangedActionCreator = newMessageText => ({
     type: NEW_TEXT_CHANGED,
     newMessageText
 })
