@@ -17,6 +17,8 @@ export const addMessageAsyncActionCreator = () => (dispatch, getState) => {
   const state = getState()
 
   database.ref('chat2').push({ text: state.messages.newMessageText })
+  
+  dispatch(newTextChangedActionCreator(''))
 }
 
 export const startListeningMessagesAsyncActionCreator = () => (dispatch, getState) => {
